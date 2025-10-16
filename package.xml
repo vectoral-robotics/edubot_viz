@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>omnibot_viz</name>
+  <version>0.0.1</version>
+  <description>
+    Visualization package for the OmniBot platform.
+    Provides RViz2 configurations and launch files for bringup and navigation.
+  </description>
+
+  <maintainer email="dev@siegler.one">Stefan Siegler</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
