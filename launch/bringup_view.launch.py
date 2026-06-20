@@ -1,8 +1,8 @@
 """
-RViz2 visualization for OmniBot bringup phase.
+RViz2 visualization for EduBot bringup phase.
 
 Displays robot model, TF tree, odometry, and optional sensor data.
-Typically launched together with omnibot_bringup.
+Typically launched together with edubot_bringup.
 """
 
 from launch import LaunchDescription
@@ -19,7 +19,7 @@ def generate_launch_description():
     rviz_config = LaunchConfiguration(
         'rviz_config',
         default=PathJoinSubstitution([
-            FindPackageShare('omnibot_viz'),
+            FindPackageShare('edubot_viz'),
             'rviz',
             'bringup_view.rviz'
         ])

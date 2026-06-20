@@ -1,8 +1,8 @@
 """
-RViz2 visualization for OmniBot navigation phase.
+RViz2 visualization for EduBot navigation phase.
 
 Displays map, costmaps, TF, robot model, odometry, and navigation goals.
-Intended to be used together with the omnibot_navigation bringup.
+Intended to be used together with the edubot_navigation bringup.
 """
 
 from launch import LaunchDescription
@@ -19,7 +19,7 @@ def generate_launch_description():
     rviz_config = LaunchConfiguration(
         'rviz_config',
         default=PathJoinSubstitution([
-            FindPackageShare('omnibot_viz'),
+            FindPackageShare('edubot_viz'),
             'rviz',
             'navigation_view.rviz'
         ])
