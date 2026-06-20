@@ -7,8 +7,11 @@
     Provides RViz2 configurations and launch files for bringup and navigation.
   </description>
 
-  <maintainer email="dev@siegler.one">Stefan Siegler</maintainer>
+  <maintainer email="info@vectoral.ch">Vectoral</maintainer>
+  <author>Stefan Siegler</author>
   <license>Apache-2.0</license>
+
+  <url type="repository">https://github.com/vectoral-robotics/edubot_viz</url>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
